@@ -1,0 +1,535 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bootform",
+				"bootform	form"
+			],
+			[
+				"Fa",
+				"Factory"
+			]
+		]
+	},
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"format",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"route",
+				"Snippet: RoutesRoutes"
+			],
+			[
+				"foramt",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"routes",
+				"Snippet: RoutesRoutes"
+			],
+			[
+				"project",
+				"STProjectMaker: Create project"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"formta",
+				"phpfmt: format now"
+			],
+			[
+				"phpfmt",
+				"phpfmt: toggle format on save"
+			],
+			[
+				"forma",
+				"phpfmt: format now"
+			],
+			[
+				"f",
+				"phpfmt: format now"
+			],
+			[
+				"toggle linter",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Pretty JSON: Minify (compress) JSON"
+			],
+			[
+				"toggle",
+				"phpfmt: toggle additional transformations"
+			],
+			[
+				"blank",
+				"Trimmer: Remove blank spaces."
+			],
+			[
+				"phpfmt toggle",
+				"phpfmt: toggle additional transformations"
+			],
+			[
+				"phpfmt enabl",
+				"phpfmt: enable/disable additional transformations"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Form::",
+				"Snippet: Form::textfield"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"form",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"pretty",
+				"Pretty JSON: JSON query with ./jq"
+			],
+			[
+				" ",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"beur",
+				"PHP CodeBeautifier"
+			]
+		],
+		"width": 904.0
+	},
+	"console":
+	{
+		"height": 299.0,
+		"history":
+		[
+			"sublime.log_commands(True)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/G/A_LOCAL/grace/local.start/app/Http/routes.php",
+		"/G/Desktop/points_2016-03-30_151711/app/Point.php",
+		"/G/Desktop/points_2016-03-30_151711/app/User.php",
+		"/G/A_LOCAL/grace/local.start/.env",
+		"/C/Users/sandbox/AppData/Roaming/Sublime Text 3/Packages/Sublime Text Backups/G/A_LOCAL/grace/local.test.cart/app/Http/routes-2016-03-29_14-04-05.php",
+		"/G/A_LOCAL/grace/local.start/composer.json",
+		"/G/A_LOCAL/grace/local.start/setup.txt",
+		"/c/users/sandbox/appdata/local/temp/rsub-qy33lj/.bash_aliases",
+		"/c/users/sandbox/appdata/local/temp/rsub-y60h0x/.bash_rc",
+		"/c/users/sandbox/appdata/local/temp/rsub-dyu_pw/.bashrc",
+		"/c/users/sandbox/appdata/local/temp/rsub-guoaua/.bashrc",
+		"/G/A_LOCAL/newsites/canvas/html-pages/qct2/support.blade.html",
+		"/G/A_LOCAL/newsites/canvas/html-pages/qct2/specs.blade.php",
+		"/G/A_LOCAL/grace/local.start/vendor/squizlabs/php_codesniffer/CodeSniffer/CLI.php",
+		"/G/A_LOCAL/grace/profile_setup_create.php",
+		"/G/A_LOCAL/grace/local.start/resources/views/welcome.blade.php",
+		"/G/A_LOCAL/grace/local.test.cart/config/infyom/laravel_generator.php",
+		"/G/A_LOCAL/grace/local.test.cart/config/app.php",
+		"/G/A_LOCAL/grace/local.start/config/app.php",
+		"/G/A_LOCAL/grace/local.test.cart/config/swaggervel.php",
+		"/G/A_LOCAL/grace/local.test.cart/config/queue.php",
+		"/G/A_LOCAL/grace/local.test.cart/resources/views/vendor/swaggervel/index.blade.php",
+		"/G/A_LOCAL/grace/local.test.cart/storage/docs/api-docs.json",
+		"/c/users/sandbox/appdata/local/temp/rsub-77pnqv/.profile",
+		"/G/A_LOCAL/grace/nude/resources/views/products/show.blade.php",
+		"/G/A_LOCAL/grace/nude/resources/views/products/create.blade.php",
+		"/G/A_LOCAL/newsites/canvas/style.css",
+		"/G/A_LOCAL/grace/local.start/swagger.json",
+		"/G/Desktop/chat_2016-03-30_160959/resources/views/chat.blade.php",
+		"/G/Desktop/chat_2016-03-30_160959/resources/views/chat_content.blade.php",
+		"/C/Users/sandbox/AppData/Roaming/Sublime Text 3/Packages/Sublime Text Backups/C/Users/sandbox/AppData/Local/Temp/rsub-xvmy2t/routes-2016-03-21_17-14-38.php",
+		"/C/Users/sandbox/AppData/Roaming/Sublime Text 2/Packages/User/devRoutes.sublime-snippet",
+		"/C/Users/sandbox/.homestead/Homestead.yaml",
+		"/G/A_LOCAL/grace/local.test.cart/app/Http/routes.php",
+		"/g/A_LOCAL/grace/local.test.cart/app/Http/Controllers/ShopController.php",
+		"/g/A_LOCAL/grace/local.test.cart/app/Http/Controllers/OrderController.php",
+		"/g/A_LOCAL/grace/local.test.cart/resources/infyom/infyom-generator-templates/scaffold/fields/checkbox.stub",
+		"/g/A_LOCAL/grace/local.test.cart/resources/model_schemas/Product.json",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/routes.php",
+		"/G/A_LOCAL/grace/local.test.cart/resources/views/layouts/app.blade.php",
+		"/g/A_LOCAL/grace/local.test.cart/app/Models/Transaction.php",
+		"/g/A_LOCAL/grace/local.test.cart/database/migrations/2016_03_29_194122_shop_setup_tables.php",
+		"/g/A_LOCAL/grace/local.test.cart/database/migrations/2016_03_29_204108_create_products_table.php",
+		"/g/A_LOCAL/grace/local.test.cart/resources/infyom/infyom-generator-templates/scaffold/fields/password.stub",
+		"/g/A_LOCAL/grace/local.test.cart/resources/infyom/infyom-generator-templates/scaffold/fields/text.stub",
+		"/g/A_LOCAL/grace/local.test.cart/resources/infyom/infyom-generator-templates/scaffold/fields/textarea.stub",
+		"/G/A_LOCAL/grace/local.test.cart/resources/views/layouts/partials/event-management.blade.php",
+		"/g/A_LOCAL/grace/local.test.cart/vendor/amsgames/laravel-shop/src/Models/ShopItemModel.php",
+		"/C/Users/sandbox/AppData/Roaming/Sublime Text 3/Packages/User/Automatic Backups.sublime-settings",
+		"/C/Users/sandbox/AppData/Roaming/Sublime Text 3/Packages/Automatic Backups/Automatic Backups.sublime-settings",
+		"/g/A_LOCAL/grace/local.test.cart/app/Models/Admin/Product.php",
+		"/c/users/sandbox/appdata/local/temp/rsub-epwyja/Product.json",
+		"/G/A_LOCAL/grace/local.test.cart/database/migrations/2016_03_29_194122_shop_setup_tables.php",
+		"/g/A_LOCAL/grace/local.test.cart/vendor/laravel/framework/src/Illuminate/Support/Facades/Hash.php",
+		"/G/A_LOCAL/grace/local.test.cart/test.cart.sublime-project",
+		"/G/A_LOCAL/grace/local.test.cart/test.cart.sublime-workspace",
+		"/G/A_LOCAL/grace/local.test.cart/php.sublime-build",
+		"/G/A_LOCAL/grace/local.test.cart/app/Http/_adminRoutes.php",
+		"/C/Users/sandbox/AppData/Roaming/Sublime Text 3/Packages/STProjectMaker/STProjectMaker.sublime-settings",
+		"/C/Users/sandbox/AppData/Roaming/Sublime Text 3/Packages/User/STProjectMaker.sublime-settings",
+		"/G/A_LOCAL/grace/local.init/app/Cart.php",
+		"/G/A_LOCAL/grace/local.init/app/CartItem.php",
+		"/G/A_LOCAL/grace/local.init/app/Http/Controllers/CartController.php",
+		"/G/A_LOCAL/grace/local.init/resources/views/cart/view.blade.php",
+		"/G/A_LOCAL/grace/local.init/resources/views/layouts/app.blade.php",
+		"/G/A_LOCAL/grace/local.init/config/app.php",
+		"/G/A_LOCAL/grace/local.init/vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php",
+		"/G/A_LOCAL/grace/local.init/app/Http/Controllers/OrderController.php",
+		"/G/A_LOCAL/grace/local.init/app/Http/routes.php",
+		"/G/A_LOCAL/grace/nude.cart/composer.json",
+		"/G/A_LOCAL/grace/local.init/resources/views/admin/new.blade.php",
+		"/G/A_LOCAL/grace/local.init/resources/views/admin/products.blade.php",
+		"/G/A_LOCAL/grace/local.init/database/migrations/2016_03_29_162123_create_table_carts_item.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/G/A_LOCAL/grace/local.init/database/migrations/2016_03_29_170341_create_other_tables.php",
+		"/G/A_LOCAL/grace/local.init/config/services.php",
+		"/G/A_LOCAL/grace/local.init/app/Providers/AppServiceProvider.php",
+		"/G/A_LOCAL/grace/local.init/database/migrations/2016_03_29_162054_create_table_carts.php",
+		"/G/A_LOCAL/grace/local.init/resources/views/order/list.blade.php",
+		"/G/A_LOCAL/grace/local.init/resources/views/order/view.blade.php",
+		"/G/A_LOCAL/grace/local.init/app/OrderItem.php",
+		"/G/A_LOCAL/grace/local.init/app/Order.php",
+		"/G/A_LOCAL/grace/local.init/database/migrations/2016_03_29_163107_create_table_orders.php",
+		"/G/A_LOCAL/grace/local.init/database/migrations/2016_03_29_163109_create_table_order_items.php",
+		"/G/A_LOCAL/grace/local.init/app/User.php",
+		"/G/A_LOCAL/grace/local.init/resources/views/ecom/products.blade.php",
+		"/G/A_LOCAL/grace/local.init/app/Http/Controllers/MainController.php",
+		"/G/A_LOCAL/grace/local.init/resources/views/main/index.blade.php",
+		"/G/A_LOCAL/grace/local.init/resources/views/ecom/new.blade.php",
+		"/G/A_LOCAL/grace/local.init/resources/views/layouts/master.blade.php",
+		"/G/A_LOCAL/grace/local.init/database/migrations/2016_03_29_155535_create_table_products.php",
+		"/G/A_LOCAL/grace/local.init/database/migrations/2016_03_29_155545_create_table_files.php",
+		"/G/A_LOCAL/grace/local.init/app/Http/Controllers/ProductController.php",
+		"/G/A_LOCAL/grace/local.init/resources/views/main/cart.blade.php",
+		"/G/A_LOCAL/grace/local.init/app/Product.php",
+		"/g/A_LOCAL/grace/local.init/config/app.php",
+		"/G/A_LOCAL/grace/nude.cart/database/migrations/2016_03_15_203921_shop_setup_tables.php",
+		"/G/A_LOCAL/grace/local.init/.env",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/pageheader.blade.php",
+		"/G/Desktop/TEMPLATES/temprar/Rar$DIa0.316/composer.json",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/ShopController.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/index.blade 4.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/index.blade 3.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/sidebar.blade.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/create.blade 3.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/index.blade 8.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/app.blade 3.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/2016_03_28_141725_create_products_table.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/RoutesGenerator.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/live_custom_routes.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/create.blade 2.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/routes 2.stub",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/index.blade 7.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/laravel.log",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/index.blade 6.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/table.blade 3.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/user.blade.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/mailsection.blade.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/notification.blade.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/styleselector.blade.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/Product.json",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/shop.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/index.blade 5.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/chat-header.blade.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/app.blade 2.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/index.blade 2.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/index.blade.php",
+		"/C/Users/sandbox/AppData/Local/Temp/fz3temp-1/routes.stub"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"G:\\A_LOCAL\\grace\\local.image",
+			"<project>,G:\\A_LOCAL\\grace\\nude"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"phpcs",
+			"preffix",
+			"include",
+			"asset",
+			"$",
+			"string",
+			"', '",
+			"App\\",
+			"//",
+			"”",
+			"“",
+			"local.init",
+			"appfactory",
+			"dev",
+			"Dev",
+			"Developer",
+			".$ROUTES_AS_PREFIX$",
+			"blog",
+			"string",
+			"\\{[^}]*\\}",
+			"nullable",
+			"use_",
+			"$v",
+			"Use ",
+			"layouts",
+			"include('layouts",
+			"false",
+			"\"primary\": false",
+			"\"primary\": true",
+			"\",",
+			"project",
+			"@include('layouts",
+			"nullable",
+			"//",
+			"->default(1)",
+			"updated",
+			"1",
+			"local.student",
+			"local.tyloo",
+			"App\\Models\\Admin\\",
+			"list",
+			"();",
+			"live/images",
+			"//",
+			"/",
+			"yield",
+			".error",
+			"error.blade.php",
+			"local.image",
+			"nude.cart",
+			"route",
+			"url('products",
+			"redirect(url",
+			"url('products",
+			"returnurl",
+			"//",
+			";",
+			"0",
+			"third",
+			"third_",
+			"second_image",
+			"primary_image",
+			"=",
+			" ",
+			";",
+			"Config::get('auth.model')",
+			"string",
+			"720/960",
+			"images/shop/thumbs/dress/3.jpg",
+			"><",
+			"><img",
+			"6",
+			".resources.views.",
+			"/",
+			"//",
+			"frontend.pages",
+			" ''",
+			"...",
+			"frontend.pages.",
+			"frontend.pages.truecut.",
+			"frontend.pages.hand-quilting.",
+			"frontend.pages.",
+			"frontend.pages.hand-quilting.",
+			"//",
+			"{!! url('/') !!}/#",
+			"Portfolio",
+			"portfolio",
+			"/frontend/images/icons",
+			"Gineign\\Shop\\Model",
+			"Gineign\\Shop",
+			"}}",
+			"{{",
+			"price",
+			"blog",
+			"item",
+			"items",
+			"6",
+			"12",
+			"...",
+			"bootstrap",
+			"\" H",
+			"type",
+			"options",
+			" data-cond-option=\"salepricegroup\" data-cond-value=\"on\"",
+			"conditional",
+			"#txtAge",
+			"input",
+			"txtAge",
+			"truecut",
+			"$menu",
+			"(>)\\n?\\s*(\\w\\s]*)\\s(<)",
+			"Sefa Karagöz",
+			"MenuController",
+			"<li>(.|\\n)*?<\\/li>",
+			"/home/vagrant/grace/nude.cart/public/faker",
+			"shop",
+			"';",
+			"ave",
+			"v",
+			"{",
+			"blog",
+			"$post",
+			"$posts",
+			"blog",
+			"res",
+			"'category_id'           => 1,",
+			"]",
+			"["
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"Config::get('auth.providers.users.model')",
+			"Shop",
+			"shop",
+			"Config::get('auth.providers.users.model')"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.paneltranformations":
+	{
+		"height": 136.0
+	},
+	"pinned_build_system": "Packages/User/BLADE.PHP.sublime-build",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,45 @@
+@extends('layouts.app')
+
+@section('ppstyle')@endsection
+@section('pphscript')@endsection
+
+@section('title')
+Preview $MODEL_NAME$
+@endsection
+
+@section('breadlink1')
+<li class="active"><a href="{!! url('$ROUTES_AS_PREFIX$$MODEL_NAME_PLURAL_CAMEL$') !!}"><i class="fa fa-cog"></i> $MODEL_NAME_PLURAL$</a></li>
+@endsection
+
+@section('pagetitle')
+$MODEL_NAME_PLURAL$
+@endsection
+
+@section('pt-small')
+Control Panel
+@endsection
+
+@section('content')
+<div class="container">
+<div class="clearfix"></div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <i class="clip-stats"></i>
+            $MODEL_NAME$
+            <div class="panel-tools">
+                <a class="btn btn-xs btn-link panel-collapse collapses" href="#"> </a>
+                <a class="btn btn-xs btn-link panel-config" href="#panel-config" data-toggle="modal"> <i class="fa fa-wrench"></i> </a>
+                <a class="btn btn-xs btn-link panel-refresh" href="#"> <i class="fa fa-refresh"></i> </a>
+                <a class="btn btn-xs btn-link panel-close" href="#"> <i class="fa fa-times"></i> </a>
+            </div>
+        </div>
+        <div class="panel-body">
+        @include('$ROUTES_AS_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.show_fields')
+
+        </div>
+    </div>
+</div>
+@endsection
+
+@section('ppscript')@endsection
+@section('ppinline')@endsection

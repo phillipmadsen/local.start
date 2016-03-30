@@ -1,0 +1,6 @@
+[
+{"fieldInput": "dealer_price:decimal,20,2:default,0", "htmlType": "number", "validations": "", "searchable": false, "fillable": true, "primary": false },
+{"fieldInput": "dealer:string:nullable", "htmlType": "text", "validations": "", "searchable": false, "fillable": true, "primary": false },
+{"fieldInput": "dealer_location:string:nullable", "htmlType": "text", "validations": "", "searchable": false, "fillable": true, "primary": false },
+{"fieldInput": "dealer_inventory:integer:unsigned:default,0", "htmlType": "number", "validations": "", "searchable": false, "fillable": true, "primary": false },
+]

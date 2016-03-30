@@ -1,0 +1,13 @@
+[
+{"fieldInput": "price:decimal,8,2", "htmlType": "number", "validations": "", "searchable": false, "fillable": true, "primary": false }, 
+{"fieldInput": "grace_price:decimal,8,2", "htmlType": "number", "validations": "", "searchable": false, "fillable": true, "primary": false }, 
+{"fieldInput": "list_price:decimal,8,2", "htmlType": "number", "validations": "", "searchable": false, "fillable": true, "primary": false }, 
+{"fieldInput": "sale_price_dates_to:dateTime", "htmlType": "date", "validations": "", "searchable": false, "fillable": true, "primary": false }, 
+{"fieldInput": "sale_price_dates_from:dateTime", "htmlType": "date", "validations": "", "searchable": false, "fillable": true, "primary": false }, 
+{"fieldInput": "sale_price:decimal,8,2", "htmlType": "number", "validations": "", "searchable": false, "fillable": true, "primary": false }, 
+{"fieldInput": "sale_price_coupon_code:string,255", "htmlType": "text", "validations": "", "searchable": false, "fillable": true, "primary": false }, 
+{"fieldInput": "promo_price:decimal,8,2", "htmlType": "number", "validations": "", "searchable": false, "fillable": true, "primary": false }, 
+{"fieldInput": "msrp_price:decimal,8,2", "htmlType": "number", "validations": "", "searchable": false, "fillable": true, "primary": false }, 
+{"fieldInput": "dealer_price:decimal,8,2", "htmlType": "number", "validations": "", "searchable": false, "fillable": true, "primary": false }, 
+{"fieldInput": "employee_price:decimal,8,2", "htmlType": "number", "validations": "", "searchable": false, "fillable": true, "primary": false }
+]

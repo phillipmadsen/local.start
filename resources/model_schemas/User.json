@@ -1,0 +1,91 @@
+[
+ 
+    {
+        "fieldInput": "name:string,255",
+        "htmlType": "text",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false
+    },
+     {
+        "fieldInput": "username:string,255",
+        "htmlType": "text",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false
+    },
+    {
+        "fieldInput": "first_name:string,255",
+        "htmlType": "text",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false
+    },
+    {
+        "fieldInput": "last_name:string,255",
+        "htmlType": "text",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false
+    },
+    {
+        "fieldInput": "last_login:date",
+        "htmlType": "timestamp",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false
+    },
+    {
+        "fieldInput": "email:string,255",
+        "htmlType": "email",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false
+    },
+    {
+        "fieldInput": "password:string,255",
+        "htmlType": "password",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false
+    },
+    {
+        "fieldInput": "is_admin:string",
+        "htmlType": "checkbox:true,false",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false
+    },
+    {
+        "fieldInput": "remember_token:string,255",
+        "htmlType": "text",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false
+    },
+    {
+        "fieldInput": "created_at:dateTime",
+        "htmlType": "timestamp",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false
+    },
+    {
+        "fieldInput": "updated_at:dateTime",
+        "htmlType": "timestamp",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false
+    }
+]

@@ -12,3 +12,13 @@ storage/
 .env.php
 .env
 .env.example
+
+public/
+config/
+storage/
+.env*
+composer.lock
+composer.phar
+/public/css/*
+/public/assets/bower_components
+/.idea

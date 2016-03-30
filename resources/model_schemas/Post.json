@@ -1,0 +1,240 @@
+[
+  {
+    "fieldInput": "id:increments",
+    "htmlType": "",
+    "validations": "",
+    "searchable": false,
+    "fillable": false,
+    "primary": true
+  },
+  
+  {
+    "fieldInput": "select_test:string",
+    "htmlType": "checkbox:Option1,Option2,Option3,Option4,Option5"
+  },
+  {
+    "fieldInput": "author_id:integer:nullable",
+    "htmlType": "number",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "visits:integer:nullable",
+    "htmlType": "number",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "title:string,70",
+    "htmlType": "text",
+    "validations": "",
+    "searchable": true,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "excerpt:text:nullable",
+    "htmlType": "textarea",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "content:text:nullable",
+    "htmlType": "textarea",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "slug:string",
+    "htmlType": "text",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "meta_title:string,65:nullable",
+    "htmlType": "text",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "fb_title:string,65:nullable",
+    "htmlType": "text",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "gp_title:string,65:nullable",
+    "htmlType": "text",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "meta_keywords:string:nullable",
+    "htmlType": "text",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "meta_description:text:nullable",
+    "htmlType": "textarea",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "path:string",
+    "htmlType": "text",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "file_name:string",
+    "htmlType": "text",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "file_size:integer",
+    "htmlType": "number",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "category_id:integer:unsigned",
+    "htmlType": "number",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "product_link_nofollow:boolean:default,0",
+    "htmlType": "text",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "link_to_product_title:string:nullable",
+    "htmlType": "text",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "link_to_product:string:nullable",
+    "htmlType": "text",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "lang:string:nullable",
+    "htmlType": "text",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+    
+  },
+  {
+    "fieldInput": "seen:boolean:default,0",
+    "htmlType": "text",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "is_published:boolean:default,0",
+    "htmlType": "text",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "is_draft:boolean:default,0",
+    "htmlType": "text",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "is_draft_checkbox:string",
+    "htmlType": "checkbox:0,1",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "has_product_link:boolean:default,0",
+    "htmlType": "text",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "created_at:dateTime",
+    "htmlType": "date",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "updated_at:dateTime",
+    "htmlType": "date",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+    {
+    "fieldInput": "published_at:dateTime:index",
+    "htmlType": "date",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  },
+  {
+    "fieldInput": "deleted_at:dateTime:index",
+    "htmlType": "date",
+    "validations": "",
+    "searchable": false,
+    "fillable": true,
+    "primary": false
+  }
+]

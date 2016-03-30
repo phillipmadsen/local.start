@@ -1,0 +1,107 @@
+
+
+composer require barryvdh/laravel-ide-helper barryvdh/laravel-debugbar php-console/laravel-service-provider filp/whoops rap2hpoutre/laravel-log-viewer amsgames/laravel-shop amsgames/laravel-shop-gateway-paypal -n --profile
+
+
+        "php": ">=5.5.9",
+        "laravel/framework": "5.2.*",
+        "larablocks/pigeon": "~5.2",
+        "guzzlehttp/guzzle": "~6.0",
+        "fzaninotto/faker": "~1.5",
+        "barryvdh/laravel-ide-helper": "^2.1",
+        "barryvdh/laravel-debugbar": "^2.2",
+        "php-console/laravel-service-provider": "^5.1",
+        "filp/whoops": "^2.1",
+        "rap2hpoutre/laravel-log-viewer": "^0.6.0",
+        "amsgames/laravel-shop": "^0.2.12",
+        "amsgames/laravel-shop-gateway-paypal": "^1.0",
+        "infyomlabs/laravel-generator": "dev-master",
+        "infyomlabs/core-templates": "dev-master",
+        "laravelcollective/html": "5.2.*",
+        "infyomlabs/swagger-generator": "dev-master",
+        "jlapp/swaggervel": "dev-master",
+        "doctrine/dbal": "~2.3"
+
+
+
+ADD TO COMPOSER.JSON
+
+"infyomlabs/laravel-generator": "dev-master",
+"infyomlabs/core-templates": "dev-master",
+"laravelcollective/html": "5.2.*",
+"infyomlabs/swagger-generator": "dev-master",
+"jlapp/swaggervel": "dev-master",
+"doctrine/dbal": "~2.3"
+
+
+After adding packages, run the following command:
+
+composer update.
+
+Add following service providers into your providers array in config/app.php
+
+
+
+        /*
+        |--------------------------------------------------------------------------
+        | Phillips custom class coding
+        |--------------------------------------------------------------------------
+        */
+        Jlapp\Swaggervel\SwaggervelServiceProvider::class,
+
+        Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+
+        Collective\Html\HtmlServiceProvider::class,
+        Laracasts\Flash\FlashServiceProvider::class,
+        Prettus\Repository\Providers\RepositoryServiceProvider::class,
+        \InfyOm\Generator\InfyOmGeneratorServiceProvider::class,
+        \InfyOm\CoreTemplates\CoreTemplatesServiceProvider::class,
+        Amsgames\LaravelShop\LaravelShopProvider::class,
+
+
+        //Milon\Barcode\BarcodeServiceProvider::class,
+
+
+Add following alias to aliases array in config/app.php
+
+        /*
+        |--------------------------------------------------------------------------
+        | Phillips custom aliases and facades
+        |--------------------------------------------------------------------------
+        */
+
+
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        'Form'     => Collective\Html\FormFacade::class,
+        'Html'     => Collective\Html\HtmlFacade::class,
+        'Flash'    => Laracasts\Flash\Flash::class,
+        'Shop'     => Amsgames\LaravelShop\LaravelShopFacade::class,
+        //'DNS1D'     => Milon\Barcode\Facades\DNS1DFacade::class,
+        //'DNS2D'     => Milon\Barcode\Facades\DNS2DFacade::class,
+
+Publish configuration stuff
+
+php artisan vendor:publish:api
+
+If you have tweaked any paths or laravel settings like custom namespace, rather than regular laravel installation, check out this page and configure the generator based on your settings
+
+Publish api stuff
+
+php artisan infyom.publish:api
+By publishing api stuff, it will create a file for api routes in app/Http/api_routes.php and will add this file with api prefix and version in routes.php.
+
+Optionally, if you have a fresh new application and want a basic bootstrap layout set for a scaffold, you can use Publish Layout Command http://labs.infyom.com/laravelgenerator/docs/advanced/publish-auth.
+
+Now we are all set to get started with generator.
+
+Generator also provides a quick way to publish layout and auth scaffold for laravel 5.1 using the following command.
+
+php artisan infyom.publish:auth
+For laravel 5.2, you can try the following command:
+
+php artisan make:auth
+This command generates all basic views like,
+
+php artisan infyom.publish:templates
